@@ -1,0 +1,18 @@
+.tower-icon {
+    text-align: center;
+    justify-content: center;
+}
+
+.tower-icon img {
+    width: 56px;
+    height: 56px;
+}
+
+.tower-link :hover {
+    color: #ff8362;
+}
+
+.tower-link a {
+    color: #3b3e40;
+    text-decoration: none;
+}

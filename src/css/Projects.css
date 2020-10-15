@@ -1,0 +1,55 @@
+#projects {
+    grid-area: projects;
+    padding-top: 100px;
+    ;
+}
+
+
+
+.text {
+    background-image: url("../images/JENGA.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.model {
+    background-color: #fff;
+}
+
+.model-title {
+    font-weight: 400;
+    font-size: 35px;
+    align-self: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+    margin: 0;
+
+}
+
+.model-title-subheading {
+    margin: 5px;
+    font-weight: 200;
+    font-size: 15px;
+    align-self: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
+
+.design-text {
+    background-color: #fff;
+}
+
+/* .design-image {
+    background-image: url("../Assets/Architetural.jpeg");
+    background-size: cover;
+
+} */
+
+
+
+
+
+
+

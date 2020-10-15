@@ -1,38 +1,65 @@
-.App {
+body {
+  margin: 0;
+  font-family: "roboto";
+  background-color: #F0F0F0;
+}
+
+h1 {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+nav {
+  background: #fff;
+  grid-area: nav;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.grid {
+  display: grid;
+  grid-template-rows: 100px 100px 500px auto auto auto 100px;
+  grid-template-areas: "header"
+      "nav"
+      "main-image"
+      "projects"
+      "design"
+      "about"
+      "footer";
+}
+
+#main-image {
+  background-image: url("./images/Cityscape.jpg");
+  grid-area: main-image;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+div .cards {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 600px;
+  height: 400px;
+  /*background: red;*/
+  /* padding: 20px;
+  padding: .5rem; */
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+  display: flex;
+  /* -webkit-box-orient: vertical; */
+  /* -webkit-box-direction: normal; */
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  color: #5d5e5e;
 }

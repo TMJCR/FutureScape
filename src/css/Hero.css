@@ -1,0 +1,13 @@
+.main-title {
+    letter-spacing: 0.3em;
+    margin-left: 1em;
+    width: 100px;
+    font-size: 60px;
+    color: #fff;
+    font-family: "roboto";
+    font-weight: 200;
+}
+
+.title-bold {
+    font-weight: 300;
+}
