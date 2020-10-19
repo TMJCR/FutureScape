@@ -1,10 +1,10 @@
 import React from 'react';
 import '../css/ProjectInfo.css';
-export default function CardProjectInfo({ name, country, city, height, floors, Function }) {
+export default function CardProjectInfo({ name, country, city, height, floors, Function, building }) {
   return (
     <div className="wrapper">
       <div id="model" className="box1">
-        <img className="building" src={require('../images/building3.jpg')}></img>
+        <img className="building" src={require(`../images/${building}.jpg`)}></img>
       </div>
       <div className="model-title">
         <p id="city" className="model-title">

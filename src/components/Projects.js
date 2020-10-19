@@ -7,7 +7,7 @@ export default function Projects({ Project }) {
     <section id="Projects">
       <div className="cards">
         <div className="card model">
-          <ProjectInfo name={Project.name} country={Project.country} city={Project.city} height={Project.height} floors={Project.floors} Function={Project.function}></ProjectInfo>
+          <ProjectInfo name={Project.name} country={Project.country} city={Project.city} height={Project.height} floors={Project.floors} Function={Project.function} building={Project.building}></ProjectInfo>
         </div>
         <div id="text" className="card text">
           <VideoPlayer videoFile={Project.video}></VideoPlayer>
