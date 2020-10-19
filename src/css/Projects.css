@@ -1,5 +1,5 @@
-#projects {
-    grid-area: projects;
+#Projects {
+    grid-area: Projects;
     padding-top: 100px;
     ;
 }
@@ -7,14 +7,19 @@
 
 
 .text {
-    background-image: url("../images/JENGA.jpg");
+    background-image: url("../images/vidBackground.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .model {
-    background-color: #fff;
+    background-color: #fff;    
+}
+
+.building {
+    margin:0 61px;
+
 }
 
 .model-title {

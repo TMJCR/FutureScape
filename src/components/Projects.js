@@ -1,14 +1,17 @@
 import React from 'react';
 import '../css/Projects.css';
 import ProjectInfo from '../components/ProjectInfo';
-export default function Projects() {
+import VideoPlayer from '../components/VideoPlayer';
+export default function Projects({ Project }) {
   return (
-    <section id="projects">
+    <section id="Projects">
       <div className="cards">
         <div className="card model">
-          <ProjectInfo name="Rainbow Tower" country="U.A.E" city="Dubai" height="500ft" floors="45" Function="Hotel"></ProjectInfo>
+          <ProjectInfo name={Project.name} country={Project.country} city={Project.city} height={Project.height} floors={Project.floors} Function={Project.function}></ProjectInfo>
         </div>
-        <div id="text" className="card text"></div>
+        <div id="text" className="card text">
+          <VideoPlayer videoFile={Project.video}></VideoPlayer>
+        </div>
       </div>
     </section>
   );

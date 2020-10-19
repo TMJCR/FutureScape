@@ -3,7 +3,9 @@ import '../css/ProjectInfo.css';
 export default function CardProjectInfo({ name, country, city, height, floors, Function }) {
   return (
     <div className="wrapper">
-      <div id="model" className="box1"></div>
+      <div id="model" className="box1">
+        <img className="building" src={require('../images/building3.jpg')}></img>
+      </div>
       <div className="model-title">
         <p id="city" className="model-title">
           {city.toUpperCase()}
@@ -39,9 +41,9 @@ export default function CardProjectInfo({ name, country, city, height, floors, F
             </p>
           </div>
           <div>
-            {floors.toUpperCase()}
+            FLOORS
             <p id="info-floors" className="specification">
-              95
+              {floors.toUpperCase()}
             </p>
           </div>
           <div>

@@ -23,7 +23,7 @@ nav {
   grid-template-areas: "header"
       "nav"
       "main-image"
-      "projects"
+      "Projects"
       "design"
       "about"
       "footer";
@@ -46,7 +46,11 @@ div .cards {
   justify-content: center;
   align-items: center;
 }
-
+video {
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
 .card {
   width: 600px;
   height: 400px;
