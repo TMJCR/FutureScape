@@ -1,0 +1,72 @@
+.CardTom {
+    padding-top: 100px;
+}
+
+.CardContainer {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .CardLargeImageSide, .CardImageAndTextSide {
+    width: 600px;
+    height: 400px;
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    color: #5d5e5e;
+  }
+
+  .CardImageAndTextContainer {
+    height:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    grid-gap: 10px;
+    padding: 3em;
+    background-color: #fff;
+  }
+
+  .CardImageAndTextContainerText {
+  }
+
+  .CardImageAndTextContainerImage { 
+  display: flex;
+  
+  }
+
+  .CardText {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  
+.CardTitle {
+  font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.2em;
+    margin: 0;
+    color: #ff8362;
+}
+
+.CardImageContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .CardSmallImage {
+width: 80%;
+  }
+
+  .CardLargeImage {
+    height:100%;
+  }
+
+
+

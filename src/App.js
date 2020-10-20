@@ -8,7 +8,7 @@ import DesignCard from './components/DesignCard';
 import Footer from './components/Footer';
 import { data } from './js/3DModelData';
 import AboutCard from './components/AboutCard';
-
+import Card from './components/Card';
 function App() {
   const [project, setProject] = useState(data.Singapore);
   const navList = ['Projects', 'Design', 'About'];
@@ -20,7 +20,17 @@ function App() {
         <Hero></Hero>
         <ProjectCard Project={project}></ProjectCard>
         <DesignCard></DesignCard>
-        <AboutCard></AboutCard>
+        <Card
+          id="About"
+          largeImage="Jenga.jpg"
+          cardTitle="DESIGN AT FUTURESCAPE"
+          cardText="We work at all scales and in all sectors. We create transformative cultural, corporate, residential and other spaces that work in synchronicity with their surroundings."
+          smallImage="Architetural2.jpg"
+          layout="right"
+        ></Card>
+
+        {/* <AboutCard></AboutCard> */}
+
         <Footer></Footer>
       </div>
     </div>
