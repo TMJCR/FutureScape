@@ -1,47 +1,40 @@
-#Projects {
-    grid-area: Projects;
-    padding-top: 100px;
-    ;
-}
+.ProjectCardContainer {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ProjectCardInternal {
+    width: 600px;
+    height: 400px;
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    color: #5d5e5e;
+  }
 
-.video {
+.ProjectCardVideo {
     background-image: url("../images/vidBackground.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-video {
-    min-width: 100%;
-    min-height: 100%;
-    object-fit: cover;
-  }
-
-.model {
+.ProjectCardModel {
     background-color: #fff;    
 }
 
-.building {
-    height:100%;
-}
 
-.model-title {
-    font-weight: 400;
-    font-size: 35px;
-    align-self: center;
-    text-align: center;
-    letter-spacing: 0.2em;
-    margin: 0;
-}
 
-.model-title-subheading {
-    margin: 5px;
-    font-weight: 200;
-    font-size: 15px;
-    align-self: center;
-    text-align: center;
-    letter-spacing: 0.2em;
-}
+
+
+
 
 
 

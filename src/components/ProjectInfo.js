@@ -2,17 +2,13 @@ import React from 'react';
 import '../css/ProjectInfo.css';
 export default function ProjectInfo({ name, country, city, height, floors, Function, building }) {
   return (
-    <div className="wrapper">
-      <div id="model" className="box1">
-        <img className="building" src={require(`../images/${building}.jpg`)}></img>
+    <div className="ProjectInfoContainer">
+      <div className="ProjectInfoBuildingContainer">
+        <img className="ProjectInfoBuilding" src={require(`../images/${building}.jpg`)}></img>
       </div>
-      <div className="model-title">
-        <p id="city" className="model-title">
-          {city.toUpperCase()}
-        </p>
-        <p id="building" className="model-title-subheading">
-          {name.toUpperCase()}
-        </p>
+      <div className="ProjectInfoTitle">
+        <p className="ProjectInfoModelTitle">{city.toUpperCase()}</p>
+        <p className="ProjectInfoSubheading">{name.toUpperCase()}</p>
       </div>
       <div className="box3">
         <div className="wrapper2">

@@ -5,11 +5,11 @@ import VideoPlayer from './VideoPlayer';
 export default function ProjectCard({ Project }) {
   return (
     <section id="Projects">
-      <div className="cards">
-        <div className="card model">
+      <div className="ProjectCardContainer">
+        <div className="ProjectCard ProjectCardModel">
           <ProjectInfo name={Project.name} country={Project.country} city={Project.city} height={Project.height} floors={Project.floors} Function={Project.function} building={Project.building}></ProjectInfo>
         </div>
-        <div id="video" className="card video">
+        <div id="video" className="ProjectCardInternal ProjectCardVideo">
           <VideoPlayer videoFile={Project.video}></VideoPlayer>
         </div>
       </div>

@@ -1,4 +1,4 @@
-.CardTom {
+.Card {
     padding-top: 100px;
 }
 
@@ -33,11 +33,12 @@
   }
 
   .CardImageAndTextContainerText {
+    grid-row: 1;
   }
 
   .CardImageAndTextContainerImage { 
   display: flex;
-  
+  grid-row: 1;
   }
 
   .CardText {

@@ -17,7 +17,11 @@ nav {
   z-index: 1;
 }
 
-
+video {
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
 
 .grid {
   display: grid;
@@ -31,26 +35,19 @@ nav {
       "Footer";
 }
 
-
-div .cards {
-  list-style: none;
-  margin: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+#Projects {
+  grid-area: Projects;
+  padding-top: 100px;
 }
 
-.card {
-  width: 600px;
-  height: 400px;
-  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  position: relative;
-  color: #5d5e5e;
+#Design {
+  grid-area: Design;
+  padding-top: 100px;
+}
+
+#About {
+  grid-area: About;
+  padding-top: 100px;
 }
 
 /* width */
