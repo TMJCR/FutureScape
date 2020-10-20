@@ -4,22 +4,25 @@
     ;
 }
 
-
-
-.text {
+.video {
     background-image: url("../images/vidBackground.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
+video {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+  }
+
 .model {
     background-color: #fff;    
 }
 
 .building {
-    margin:0 61px;
-
+    height:100%;
 }
 
 .model-title {
@@ -29,7 +32,6 @@
     text-align: center;
     letter-spacing: 0.2em;
     margin: 0;
-
 }
 
 .model-title-subheading {
@@ -42,15 +44,6 @@
 }
 
 
-.design-text {
-    background-color: #fff;
-}
-
-/* .design-image {
-    background-image: url("../Assets/Architetural.jpeg");
-    background-size: cover;
-
-} */
 
 
 

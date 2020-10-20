@@ -1,0 +1,15 @@
+#About {
+    grid-area: About;
+    padding-top: 100px;
+    ;
+}
+
+.about-text {
+    background-color: #fff;
+}
+
+.about-image {
+    background-image: url("../images/JENGA.jpg");
+    background-size: cover;
+
+}

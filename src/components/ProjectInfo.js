@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/ProjectInfo.css';
-export default function CardProjectInfo({ name, country, city, height, floors, Function, building }) {
+export default function ProjectInfo({ name, country, city, height, floors, Function, building }) {
   return (
     <div className="wrapper">
       <div id="model" className="box1">

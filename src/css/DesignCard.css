@@ -1,0 +1,14 @@
+#Design {
+    grid-area: Design;
+    padding-top: 100px;
+}
+
+.design-text {
+    background-color: #fff;
+}
+
+.design-image {
+    background-image: url("../images/Architetural.jpeg");
+    background-size: cover;
+
+}

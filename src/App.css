@@ -17,26 +17,20 @@ nav {
   z-index: 1;
 }
 
+
+
 .grid {
   display: grid;
   grid-template-rows: 100px 100px 500px auto auto auto 100px;
   grid-template-areas: "header"
       "nav"
-      "main-image"
+      "Hero"
       "Projects"
-      "design"
-      "about"
-      "footer";
+      "Design"
+      "About"
+      "Footer";
 }
 
-#main-image {
-  background-image: url("./images/Cityscape.jpg");
-  grid-area: main-image;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
-}
 
 div .cards {
   list-style: none;
@@ -46,22 +40,13 @@ div .cards {
   justify-content: center;
   align-items: center;
 }
-video {
-  min-width: 100%;
-  min-height: 100%;
-  object-fit: cover;
-}
+
 .card {
   width: 600px;
   height: 400px;
-  /*background: red;*/
-  /* padding: 20px;
-  padding: .5rem; */
   -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
   display: flex;
-  /* -webkit-box-orient: vertical; */
-  /* -webkit-box-direction: normal; */
   -ms-flex-direction: column;
   flex-direction: column;
   position: relative;

@@ -21,6 +21,8 @@
 }
 
 .box1 {
+    display: flex;
+    justify-content: center;
     grid-column-start: -3;
     grid-column-end: -2;
     grid-row-start: -5;
