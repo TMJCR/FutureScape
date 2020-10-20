@@ -21,5 +21,5 @@ export default function BackToTop() {
     });
   };
   document.addEventListener('scroll', checkShowBackToTop);
-  return <FaArrowCircleUp className="scrollTop" onClick={scrollBackToTop} style={{ width: 50, opacity: showBackToTop ? 100 : 0, cursor: showBackToTop ? 'pointer' : 'default' }} />;
+  return <FaArrowCircleUp className="BackToTop" onClick={scrollBackToTop} style={{ width: 50, opacity: showBackToTop ? 100 : 0, cursor: showBackToTop ? 'pointer' : 'default' }} />;
 }

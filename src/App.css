@@ -23,7 +23,7 @@ video {
   object-fit: cover;
 }
 
-.grid {
+.AppContainer {
   display: grid;
   grid-template-rows: 100px 100px 500px auto auto auto 100px;
   grid-template-areas: "header"
@@ -49,6 +49,8 @@ video {
   grid-area: About;
   padding-top: 100px;
 }
+
+
 
 /* width */
 ::-webkit-scrollbar {

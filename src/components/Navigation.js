@@ -7,7 +7,7 @@ export default function Navigation({ data, setProject }) {
   const cities = Object.keys(data);
   return (
     <nav>
-      <ul className="navigation-list">
+      <ul className="NavigationList">
         {cities.map((city, idx) => (
           <NavigationItem setProject={setProject} key={idx} city={data[city]}></NavigationItem>
         ))}

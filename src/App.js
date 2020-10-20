@@ -13,7 +13,7 @@ function App() {
   const navList = ['Projects', 'Design', 'About'];
   return (
     <div className="App">
-      <div className="grid">
+      <div className="AppContainer">
         <Header navList={navList}></Header>
         <Navigation data={data} setProject={setProject}></Navigation>
         <Hero></Hero>
@@ -34,8 +34,6 @@ function App() {
           smallImage="Architetural2.jpg"
           layout="right"
         ></Card>
-
-        {/* <AboutCard></AboutCard> */}
 
         <Footer></Footer>
       </div>

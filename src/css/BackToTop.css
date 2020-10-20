@@ -1,5 +1,5 @@
 
-.scrollTop {
+.BackToTop {
     width: 100%;
     align-items: center;
     height: 20px;
@@ -13,7 +13,7 @@
     font-size: 0.5em;
   }
   
-  .scrollTop:hover{
+  .BackToTop:hover{
     opacity: 1;
   }
   

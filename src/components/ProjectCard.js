@@ -6,7 +6,7 @@ export default function ProjectCard({ Project }) {
   return (
     <section id="Projects">
       <div className="ProjectCardContainer">
-        <div className="ProjectCard ProjectCardModel">
+        <div className="ProjectCardInternal ProjectCardModel">
           <ProjectInfo name={Project.name} country={Project.country} city={Project.city} height={Project.height} floors={Project.floors} Function={Project.function} building={Project.building}></ProjectInfo>
         </div>
         <div id="video" className="ProjectCardInternal ProjectCardVideo">

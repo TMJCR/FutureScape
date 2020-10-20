@@ -4,7 +4,6 @@
     grid-template-rows: repeat(4, 100px);
 }
 
-
 .ProjectInfoBuildingContainer {
     display: flex;
     justify-content: center;
@@ -14,27 +13,11 @@
     grid-row-end: -2;
 }
 
-.box2 {
-    grid-column-start: -3;
-    grid-column-end: -2;
-    grid-row-start: -2;
-    grid-row-end: -1;
-}
-
-.box3 {
+.ProjectInfoSpecificationContainer {
     grid-column-start: -2;
     grid-column-end: -1;
     grid-row-start: -5;
     grid-row-end: -1;
-}
-
-.ProjectInfoModelSubheading {
-    margin: 5px;
-    font-weight: 200;
-    font-size: 15px;
-    align-self: center;
-    text-align: center;
-    letter-spacing: 0.2em;
 }
 .ProjectInfoModelTitle {
     font-weight: 400;
@@ -45,11 +28,20 @@
     margin: 0;
 }
 
+.ProjectInfoModelSubheading {
+    margin: 5px;
+    font-weight: 200;
+    font-size: 15px;
+    align-self: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
 .ProjectInfoBuilding {
     height:100%;
 }
 
-.wrapper2 {
+.SpecificationsContainer {
     display: grid;
     padding: 60px 10px;
     grid-template-columns: repeat(2, 1fr);
@@ -59,7 +51,7 @@
     font-weight: 500;
 }
 
-.specification {
+.Specification {
     color: #ff8362;
     font-size: 12px;
     letter-spacing: 0.2em;

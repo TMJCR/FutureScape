@@ -4,49 +4,37 @@ export default function ProjectInfo({ name, country, city, height, floors, Funct
   return (
     <div className="ProjectInfoContainer">
       <div className="ProjectInfoBuildingContainer">
-        <img className="ProjectInfoBuilding" src={require(`../images/${building}.jpg`)}></img>
+        <img className="ProjectInfoBuilding" src={require(`../images/${building}.jpg`)} alt="ProjectBuilding"></img>
       </div>
       <div className="ProjectInfoTitle">
         <p className="ProjectInfoModelTitle">{city.toUpperCase()}</p>
-        <p className="ProjectInfoSubheading">{name.toUpperCase()}</p>
+        <p className="ProjectInfoModelSubheading">{name.toUpperCase()}</p>
       </div>
-      <div className="box3">
-        <div className="wrapper2">
+      <div className="ProjectInfoSpecificationContainer">
+        <div className="SpecificationsContainer">
           <div>
             NAME
-            <p id="info-name" className="specification">
-              {name.toUpperCase()}
-            </p>
+            <p className="Specification">{name.toUpperCase()}</p>
           </div>
           <div>
             COUNTRY
-            <p id="info-country" className="specification">
-              {country.toUpperCase()}
-            </p>
+            <p className="Specification">{country.toUpperCase()}</p>
           </div>
           <div>
             CITY
-            <p id="info-city" className="specification">
-              {city.toUpperCase()}
-            </p>
+            <p className="Specification">{city.toUpperCase()}</p>
           </div>
           <div>
             HEIGHT
-            <p id="info-height" className="specification">
-              {height.toUpperCase()}
-            </p>
+            <p className="Specification">{height.toUpperCase()}</p>
           </div>
           <div>
             FLOORS
-            <p id="info-floors" className="specification">
-              {floors.toUpperCase()}
-            </p>
+            <p className="Specification">{floors.toUpperCase()}</p>
           </div>
           <div>
             FUNCTION
-            <p id="info-function" className="specification">
-              {Function.toUpperCase()}
-            </p>
+            <p className="Specification">{Function.toUpperCase()}</p>
           </div>
         </div>
       </div>

@@ -5,10 +5,10 @@ import '../css/Header.css';
 export default function Header({ navList }) {
   return (
     <header>
-      <ul className="navigation-list">
-        <li className="navigation-item">
+      <ul className="HeaderList">
+        <li className="HeaderItem">
           <a href="/">
-            <img className="logo" src={require('../images/logo.jpg')} alt=""></img>
+            <img className="HeaderLogo" src={require('../images/logo.jpg')} alt=""></img>
           </a>
         </li>
         {navList.map((navItem, idx) => (

@@ -4,12 +4,12 @@ header {
     border-bottom: 2px solid #f1f1f1;
 }
 
-.logo {
+.HeaderLogo {
     height: 70px;
     margin: 0 1.5em;
 }
 
-.navigation-list {
+.HeaderList {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -20,16 +20,16 @@ header {
     height: 100%;
 }
 
-.navigation-item {
+.HeaderItem {
     text-decoration: none;
     margin: 0 1.5em;
 }
 
-.navigation-item :hover {
+.HeaderItem :hover {
     color: #ff8362;
 }
 
-.header-nav-item a {
+.HeaderNavItem a {
     font-size: 22px;
     text-decoration: none;
     color: #3b3e40;

@@ -8,12 +8,12 @@ export default function NavigationItem({ city, setProject }) {
   };
   return (
     <>
-      <li onClick={handleSetProject} className="tower-link">
-        <a id={city.city} className="tower-icon-selector" href="#projects">
-          <div className="tower-icon">
+      <li onClick={handleSetProject} className="NavigationBuidldingLink">
+        <a id={city.city} className="NavigationBuidldingIconSelector" href="#projects">
+          <div className="NavigationBuidldingIcon">
             <img src={require(`../images/${city.image}.svg`)} alt=""></img>{' '}
           </div>
-          <div className="navigation-item">{city.city}</div>
+          <div className="NavigationItem">{city.city}</div>
         </a>
       </li>
     </>
