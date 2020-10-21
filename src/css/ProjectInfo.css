@@ -29,8 +29,9 @@
 }
 
 .ProjectInfoModelSubheading {
+    color: #ff8362;
     margin: 5px;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 15px;
     align-self: center;
     text-align: center;

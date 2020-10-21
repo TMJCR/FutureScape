@@ -1,6 +1,5 @@
 export const smoothScroll = function (targetSection, duration) {
   const target = document.querySelector(targetSection);
-  console.log(target, targetSection);
   if (!target) {
     return;
   }

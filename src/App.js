@@ -20,10 +20,10 @@ function App() {
         <ProjectCard Project={project}></ProjectCard>
         <Card
           id="Design"
-          largeImage="Architetural.jpeg"
+          largeImage="Architectural.jpeg"
           cardTitle="DESIGN AT FUTURESCAPE"
           cardText="FutureScape is a global leader in pioneering architectural design. Collaborations with corporations, that lead their industries, have advanced the practice’s diversity and knowledge."
-          smallImage="Architetural1.jpg"
+          smallImage="Architectural1.jpg"
           layout="left"
         ></Card>
         <Card
@@ -31,7 +31,7 @@ function App() {
           largeImage="Skyscraper.jpg"
           cardTitle="ABOUT US"
           cardText="We work at all scales and in all sectors. We create transformative cultural, corporate, residential and other spaces that work in synchronicity with their surroundings."
-          smallImage="Architetural2.jpg"
+          smallImage="Architectural2.jpg"
           layout="right"
         ></Card>
 
