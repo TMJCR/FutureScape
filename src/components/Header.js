@@ -8,7 +8,7 @@ export default function Header({ navList }) {
       <ul className="HeaderList">
         <li className="HeaderItem">
           <a href="/">
-            <img className="HeaderLogo" src={require('../images/logo.jpg')} alt=""></img>
+            <img className="HeaderLogo" src={require('../images/Logo.jpg')} alt=""></img>
           </a>
         </li>
         {navList.map((navItem, idx) => (

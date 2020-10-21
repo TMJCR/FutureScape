@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
   }
-  
+   
   .ProjectCardInternal {
     width: 600px;
     height: 400px;
@@ -20,7 +20,6 @@
   }
 
 .ProjectCardVideo {
-    background-image: url("../images/vidBackground.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

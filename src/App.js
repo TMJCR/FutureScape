@@ -28,7 +28,7 @@ function App() {
         ></Card>
         <Card
           id="About"
-          largeImage="Jenga.jpg"
+          largeImage="Skyscraper.jpg"
           cardTitle="ABOUT US"
           cardText="We work at all scales and in all sectors. We create transformative cultural, corporate, residential and other spaces that work in synchronicity with their surroundings."
           smallImage="Architetural2.jpg"
