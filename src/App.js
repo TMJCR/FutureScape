@@ -22,7 +22,7 @@ function App() {
           id="Design"
           largeImage="Architetural.jpeg"
           cardTitle="DESIGN AT FUTURESCAPE"
-          cardText="FutureScape is a global leader in pioneering research and design investigation. Collaborations with corporations, that lead their industries, have advanced the practice’s diversity and knowledge."
+          cardText="FutureScape is a global leader in pioneering architectural design. Collaborations with corporations, that lead their industries, have advanced the practice’s diversity and knowledge."
           smallImage="Architetural1.jpg"
           layout="left"
         ></Card>
