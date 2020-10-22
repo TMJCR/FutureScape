@@ -6,9 +6,9 @@ export default function BackToTop() {
   const [showBackToTop, setshowBackToTop] = useState(false);
   const checkShowBackToTop = () => {
     const scrollPosition = window.pageYOffset;
-    if (!showBackToTop && scrollPosition > 500) {
+    if (!showBackToTop && scrollPosition > 200) {
       setshowBackToTop(true);
-    } else if (showBackToTop && scrollPosition < 500) {
+    } else if (showBackToTop && scrollPosition < 200) {
       setshowBackToTop(false);
     }
   };

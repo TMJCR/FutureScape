@@ -10,12 +10,16 @@ h1 {
   justify-content: center;
 }
 
+header {
+  height:100px;
+}
 nav {
   background: #fff;
   grid-area: nav;
   position: sticky;
   top: 0;
   z-index: 1;
+  height:100px;
 }
 
 video {
