@@ -25,13 +25,8 @@ video {
 }
 
 .AppContainer {
-<<<<<<< HEAD
-  width: min-content;
-  /* display: grid;
-=======
   /* width: min-content;
   display: grid;
->>>>>>> Mobile
   grid-template-rows: 100px 100px 500px auto auto auto 100px;
   grid-template-areas: "header"
       "nav"
