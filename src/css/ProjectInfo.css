@@ -21,10 +21,10 @@
 }
 .ProjectInfoModelTitle {
     font-weight: 400;
-    font-size: 35px;
+    font-size: 28px;
     align-self: center;
     text-align: center;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.18em;
     margin: 0;
 }
 
@@ -32,7 +32,7 @@
     color: #ff8362;
     margin: 5px;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
     align-self: center;
     text-align: center;
     letter-spacing: 0.2em;

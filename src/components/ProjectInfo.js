@@ -7,8 +7,8 @@ export default function ProjectInfo({ name, country, city, height, floors, Funct
         <img className="ProjectInfoBuilding" src={require(`../images/${building}.jpg`)} alt="ProjectBuilding"></img>
       </div>
       <div className="ProjectInfoTitle">
-        <p className="ProjectInfoModelTitle">{city.toUpperCase()}</p>
-        <p className="ProjectInfoModelSubheading">{name.toUpperCase()}</p>
+        <p className="ProjectInfoModelTitle">{name.toUpperCase()}</p>
+        <p className="ProjectInfoModelSubheading">{city.toUpperCase()}</p>
       </div>
       <div className="ProjectInfoSpecificationContainer">
         <div className="SpecificationsContainer">
