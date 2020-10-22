@@ -30,3 +30,8 @@ right:2em;
       opacity: 0.5;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .BackToTopContainer{
+      right:0.8em;
+      }}
