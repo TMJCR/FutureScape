@@ -36,3 +36,22 @@
 .NavigationItem :hover {
     color: #ff8362;
 }
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 768px) {
+ .NavigationList {
+    list-style: none;
+    margin: 0;
+    padding: 0 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.NavigationItem {
+    margin: auto;
+}
+  }
