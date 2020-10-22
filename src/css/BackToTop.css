@@ -1,4 +1,9 @@
 
+.BackToTopContainer{
+position: absolute;
+right:2em;
+}
+
 .BackToTop {
     width: 100%;
     align-items: center;

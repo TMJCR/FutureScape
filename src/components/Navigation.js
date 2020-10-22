@@ -11,7 +11,7 @@ export default function Navigation({ data, setProject }) {
         {cities.map((city, idx) => (
           <NavigationItem setProject={setProject} key={idx} city={data[city]}></NavigationItem>
         ))}
-        <li>
+        <li className="BackToTopContainer">
           <BackToTop></BackToTop>
         </li>
       </ul>

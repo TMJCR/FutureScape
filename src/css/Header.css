@@ -4,6 +4,7 @@ header {
     border-bottom: 2px solid #f1f1f1;
 }
 
+
 .HeaderLogo {
     height: 70px;
     margin: 0 1.5em;
@@ -15,7 +16,7 @@ header {
     padding: 0;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 100%;
 }
@@ -29,8 +30,16 @@ header {
     color: #ff8362;
 }
 
+.HeaderLogoContainer{
+    flex-direction: row;
+    justify-content: flex-start;
+    min-width: 100px;
+    margin-left:5px;
+}
+
 .HeaderNavItem a {
     font-size: 22px;
     text-decoration: none;
     color: #3b3e40;
+
 }
