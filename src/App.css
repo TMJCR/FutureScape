@@ -26,7 +26,7 @@ video {
 
 .AppContainer {
   width: min-content;
-  display: grid;
+  /* display: grid;
   grid-template-rows: 100px 100px 500px auto auto auto 100px;
   grid-template-areas: "header"
       "nav"
@@ -34,7 +34,7 @@ video {
       "Projects"
       "Design"
       "About"
-      "Footer";
+      "Footer"; */
 }
 
 #Projects {
