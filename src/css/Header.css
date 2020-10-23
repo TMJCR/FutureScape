@@ -16,7 +16,7 @@ header {
     padding: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 100%;
 }
@@ -41,5 +41,10 @@ header {
     font-size: 22px;
     text-decoration: none;
     color: #3b3e40;
+}
 
+@media screen and (max-width: 768px) {
+    .NavigationList {
+       justify-content: space-around;
+   }
 }

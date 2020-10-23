@@ -13,8 +13,6 @@
 }
 
 #Hero {
-    display:flex;
-    height:500px;
     background-image: url("../images/Cityscape.jpg");
     grid-area: Hero;
     background-size: cover;

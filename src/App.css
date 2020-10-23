@@ -10,16 +10,12 @@ h1 {
   justify-content: center;
 }
 
-header {
-  height:100px;
-}
 nav {
   background: #fff;
   grid-area: nav;
   position: sticky;
   top: 0;
   z-index: 1;
-  height:100px;
 }
 
 video {
@@ -29,7 +25,7 @@ video {
 }
 
 .AppContainer {
-  /* width: min-content;
+  /* width: min-content; */
   display: grid;
   grid-template-rows: 100px 100px 500px auto auto auto 100px;
   grid-template-areas: "header"
@@ -38,22 +34,19 @@ video {
       "Projects"
       "Design"
       "About"
-      "Footer"; */
+      "Footer";
 }
 
 #Projects {
   grid-area: Projects;
-  padding: 100px 20px 0 20px;
 }
 
 #Design {
   grid-area: Design;
-  padding: 100px 20px 0 20px;
 }
 
 #About {
   grid-area: About;
-  padding-top: 100px;
 }
 
 
@@ -81,4 +74,11 @@ video {
 ::-webkit-scrollbar-thumb:hover {
   background: #ff8362;
   opacity: 1;
+}
+
+@media screen and (max-width: 1200px) {
+
+body {
+  background-color: #fff;
+}
 }
