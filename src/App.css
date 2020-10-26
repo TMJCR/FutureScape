@@ -85,7 +85,7 @@ body {
 
 @media screen and (max-width: 480px) {
   .AppContainer {
-    grid-template-rows: 100px 100px 500px auto auto auto 100px;
+    grid-template-rows: 80px 100px 400px auto auto auto 100px;
   }
   video{
     width:100%;
