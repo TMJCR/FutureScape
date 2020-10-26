@@ -26,7 +26,7 @@ export const data = {
     image: 'Apex',
     building: 'Apex',
     video: 'Apex',
-    country: 'United Kingdom',
+    country: 'England',
     city: 'London',
     height: '1,236ft',
     floors: '90',

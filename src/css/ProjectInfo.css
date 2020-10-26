@@ -52,13 +52,43 @@
     font-weight: 500;
 }
 
+.IndividualSpecificationContainer{
+    font-size: 16px;
+}
+
 .Specification {
     color: #ff8362;
     font-size: 12px;
     letter-spacing: 0.2em;
 }
 
-/* @media screen and (max-width: 480px) {
-.ProjectInfoBuildingContainer {
-max-width: 150px;
-}} */
+@media screen and (max-width: 480px) {
+    .ProjectInfoContainer {
+        grid-template-columns: 2fr;
+
+    }
+
+    .ProjectInfoBuilding {
+        width:100%;
+        object-fit:contain;
+        height:auto;
+    }
+.ProjectInfoTitle {
+    text-align:center;
+}
+.ProjectInfoModelTitle {
+    font-size: 22px;
+}
+.ProjectInfoModelSubheading {
+    font-size: 18px;
+}
+.Specification {
+    font-size: 11.5px;
+}
+.SpecificationsContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 10px;
+    font-size: 16px;
+}
+}

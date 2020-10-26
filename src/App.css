@@ -31,7 +31,7 @@ video {
   grid-template-areas: "header"
       "nav"
       "Hero"
-      "Projects"
+       "Projects"
       "Design"
       "About"
       "Footer";
@@ -81,4 +81,13 @@ video {
 body {
   background-color: #fff;
 }
+}
+
+@media screen and (max-width: 480px) {
+  .AppContainer {
+    grid-template-rows: 80px 100px 500px auto auto auto 100px;
+  }
+  video{
+    width:100%;
+  }
 }

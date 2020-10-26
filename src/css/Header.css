@@ -48,3 +48,17 @@ header {
        justify-content: space-around;
    }
 }
+
+@media screen and (max-width: 480px) {
+    .HeaderLogo {
+        height: 50px;
+        margin: 0 0.5em;
+    }
+    .HeaderNavItem a {
+        font-size:1em;
+    }
+    .HeaderItem {
+        margin: 0 0.5em;
+    }
+}
+

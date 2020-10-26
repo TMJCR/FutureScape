@@ -35,3 +35,9 @@ right:2em;
     .BackToTopContainer{
       right:0.8em;
       }}
+
+      @media screen and (max-width: 480px) {
+        .BackToTopContainer{
+          right:0.6em;
+          max-width: 30px;
+          }}

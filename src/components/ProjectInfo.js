@@ -12,27 +12,27 @@ export default function ProjectInfo({ name, country, city, height, floors, Funct
       </div>
       <div className="ProjectInfoSpecificationContainer">
         <div className="SpecificationsContainer">
-          <div>
+          <div class="IndividualSpecificationContainer">
             NAME
             <p className="Specification">{name.toUpperCase()}</p>
           </div>
-          <div>
+          <div class="IndividualSpecificationContainer">
             COUNTRY
             <p className="Specification">{country.toUpperCase()}</p>
           </div>
-          <div>
+          <div class="IndividualSpecificationContainer">
             CITY
             <p className="Specification">{city.toUpperCase()}</p>
           </div>
-          <div>
+          <div class="IndividualSpecificationContainer">
             HEIGHT
             <p className="Specification">{height.toUpperCase()}</p>
           </div>
-          <div>
+          <div class="IndividualSpecificationContainer">
             FLOORS
             <p className="Specification">{floors.toUpperCase()}</p>
           </div>
-          <div>
+          <div class="IndividualSpecificationContainer">
             FUNCTION
             <p className="Specification">{Function.toUpperCase()}</p>
           </div>

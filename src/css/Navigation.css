@@ -49,3 +49,19 @@
   }
 
      
+  @media screen and (max-width: 480px) {
+
+    .NavigationBuidldingLink a {
+        font-size:0.8em;
+    }
+    .NavigationBuidldingIcon img {
+        width: 50px;
+        height: 50px;
+    }
+    .NavigationList {
+            padding: 0 1em;
+    }
+    .NavigationItem {
+        text-align: center;
+    }
+}
