@@ -78,6 +78,9 @@ width: 80%;
     .Card {
       padding: 0px 20px 0 20px;
   }
+  .CardImageAndTextContainer{
+    padding:1em;
+  }
   }
 
   @media screen and (max-width: 780px) {
