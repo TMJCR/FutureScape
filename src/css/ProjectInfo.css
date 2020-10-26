@@ -57,3 +57,8 @@
     font-size: 12px;
     letter-spacing: 0.2em;
 }
+
+/* @media screen and (max-width: 480px) {
+.ProjectInfoBuildingContainer {
+max-width: 150px;
+}} */

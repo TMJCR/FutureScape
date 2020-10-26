@@ -21,6 +21,7 @@
   }
 
 .ProjectCardVideo {
+  background-image: url("../images/Video_Loading.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -41,6 +42,18 @@
     box-shadow: none;
 }
 }
+
+@media screen and (max-width: 480px) {
+  /* .ProjectCardContainer {
+    max-width: 100vw;
+} */
+
+.ProjectCardInternal {
+  height:auto;
+}
+}
+
+
 
 
 

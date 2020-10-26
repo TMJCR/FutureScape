@@ -88,5 +88,13 @@ width: 80%;
     .Card {
       padding: 0;
   }
-  
   }
+  /* @media screen and (max-width: 480px) {
+  .CardImageAndTextContainer{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .CardContainer {
+    max-width: 100vw;
+  }
+} */
