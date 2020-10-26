@@ -3,6 +3,7 @@ body {
   margin: 0;
   font-family: "roboto";
   background-color: #F0F0F0;
+  height:100vh;
 }
 
 h1 {
