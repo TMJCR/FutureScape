@@ -79,13 +79,15 @@ width: 80%;
       padding: 0px 20px 0 20px;
   }
   .CardImageAndTextContainer{
-    padding:1em;
+    padding:2em;
+  }
+  .CardLargeImageSide, .CardImageAndTextSide {
+    height: 100%;
   }
   }
 
   @media screen and (max-width: 780px) {
     .CardLargeImageSide, .CardImageAndTextSide {
-      height: 100%;
       box-shadow: none;
     }      
     .Card {
