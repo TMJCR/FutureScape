@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "32c45887f6298264c886fb78b6170d71",
+    "revision": "090620c1b31e5295db342c56d7239f81",
     "url": "/FutureScape/index.html"
   },
   {
-    "revision": "7a5c0cec190568f18eac",
-    "url": "/FutureScape/static/css/main.250cddd0.chunk.css"
+    "revision": "1502f3c1c3ed96a0ed44",
+    "url": "/FutureScape/static/css/main.fcff1f90.chunk.css"
   },
   {
     "revision": "9a5c0caba52e79066754",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FutureScape/static/js/2.38692d8e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7a5c0cec190568f18eac",
+    "revision": "1502f3c1c3ed96a0ed44",
     "url": "/FutureScape/static/js/main.0c4b01dc.chunk.js"
   },
   {
