@@ -51,8 +51,7 @@ header {
 
 @media screen and (max-width: 480px) {
     .HeaderLogo {
-        height: 50px;
-        margin: 0 0.5em;
+        height: 75px;
     }
     .HeaderNavItem a {
         font-size:1em;
