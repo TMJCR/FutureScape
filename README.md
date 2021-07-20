@@ -1,25 +1,22 @@
-A nostalgic Pokemon game in the style of the original Gameboy version with an "open world" stage, where a sprite is controlled on-screen to navigate through an enemy-filled terrain and a battle mode, where the player can choose from their team of Pokemon and select from a set of attack moves to defeat their opponents. 
+A single-page concept website for an architectural firm which showcases 3D designed assets. 
 
 Live Demo: https://tmjcr.github.io/FutureScape/
 
-<img src="./Thumbnail.png">
+<img src="./Thumbnail_.png">
 
 -How I built this:
-* Being my first project of relative complexity, I chose to focus entirely on vanilla Javascript. The game was a favourite of mine as a child so I had a good understanding of how the end project should turn out. I built the two modes of the game - the "open-world" and battle mode - as separate components which would be rendered to the screen based on which state the player is currently in.
-* I used an open source Pokemon API for information and statistics of the Pokemon characters, as well as images. I then built a dynamic damage system which is analogous to the original damage system in the Nintendo games; which calculates damage based on the type of attack, the Pokemon type and the corresponding attack and defence attributes of both the attacking and defending Pokemon.  
+* This was a very simple application which I built as a means of learning how to use React. One of my hobbies is to design and build landscapes in 3D software such as Unreal Engine and Dreams on PS4 so this project gave me the opportunity to combine two of my greatest interests.
+* As the project itself is quite straightforward there is a limited amount of state. The navigation bar acts as the controller for the user to view different projects and the data is populated in the relevant sections.
+* Originally I had used Three.js to import 3d models themselves into the browser and while this did to some extent work, the textures of the models were not particularly detailed given the limitations of the browser so I replaced them with mp4 files of buildings that were built in Dreams.  
 
 -What I learnt:
-* I gained a good understanding of how HTML Canvas works in order to animate sprites and build the "open-world" aspects of the game.
-* To achieve the signature spiralling black screen which precedes a battle in Pokemon, I had to understand and implement recursive functions.
-* I gained  animations work in CSS as well as event timings using Async/Await.
-* I used CSS variables in order to dynamically change the colour of damage bars which were dependent on the level of damage inflicted.
-* This was my first time experiencing and appreciating the advantages of CSS grid, given the structured layout of the battle mode in Pokemon.
+* This was one of the first projects I built using React so my focus was learning the basics of state, props, hooks etc.
+* I learned how to use Three.js to import and render 3d models, although this didnt end up being present in the final applicaiton. 
+* I designed the appearance for the application using AdobeXD and focused on some of the fundamental concepts of UX/UI design such as contrast, alignment, whitespace, and visual heirachy.
+* I combined css grid with flexbox to ensure that it was a responsive application.
 
 -What I would do differently if I were to do it again:
-* The data used to underpin the battle mode is reliant on the design of the external API. Any changes to how the API is structured could therefore create breaking issues in various parts of the application. I would redesign the way the data is brought in so that there is an interface between the API and my application. That way, changes to the API would only need to be made in one program at the root of the application.
-* As I have no control over the external API, I would also have a back-up of a minimal set of data so that the game can still be played, albeit limited to a smaller selection of Pokemon and attack move, if the API were to go offline for any reason.
-* The canvas elements of the grid and lack of on screen controls make it so the game is not mobile-friendly so changes to the responsive design elements and the controls would need to be made.
-* It also was not optimised for all browsers as it was built with various es6 features so would be useful to use a build tool to transpile es6 features for older browsers.
-* There would be massive advantages for using a front-end library/framework for this application. The need for multiple getElementByID commands would be removed by using a state-based front-end using React for example. This would make the code much more readable and easier to edit.
-* Everything is currently declared in the global scope so it would be of great benefit to use modules to avoid namespace pollution and make the code more re-usable.
 
+* I initally designed the website as a desktop website and then retro-fitted it to be mobile friendly, however this was not without its challenges so I would probably use a mobile-first approach for a straightforward application such as this.
+* I would save the videos for the application on a CDN as currently they are downloaded directly from the server which could impede loading times on a particularly slow connection.
+* The application is essentially made up of card components and although the content they display is different, it would probably be more efficient to conditionally populate the cards, as opposed to having a seperate component for each type of card.
