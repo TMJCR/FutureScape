@@ -11,12 +11,12 @@ Live Demo: https://tmjcr.github.io/FutureScape/
 
 -What I learnt:
 * This was one of the first projects I built using React so my focus was learning the basics of state, props, hooks etc.
-* I learned how to use Three.js to import and render 3d models, although this didnt end up being present in the final applicaiton. 
-* I designed the appearance for the application using AdobeXD and focused on some of the fundamental concepts of UX/UI design such as contrast, alignment, whitespace, and visual heirachy.
+* I learned how to use Three.js to import and render 3d models, although this didn't end up being present in the final application. 
+* I designed the appearance for the application using AdobeXD and focused on some of the fundamental concepts of UX/UI design such as contrast, alignment, whitespace, and visual hierarchy.
 * I combined css grid with flexbox to ensure that it was a responsive application.
 
 -What I would do differently if I were to do it again:
 
-* I initally designed the website as a desktop website and then retro-fitted it to be mobile friendly, however this was not without its challenges so I would probably use a mobile-first approach for a straightforward application such as this.
+* I initially designed the website as a desktop website and then retro-fitted it to be mobile friendly, however this was not without its challenges so I would probably use a mobile-first approach for a straightforward application such as this.
 * I would save the videos for the application on a CDN as currently they are downloaded directly from the server which could impede loading times on a particularly slow connection.
-* The application is essentially made up of card components and although the content they display is different, it would probably be more efficient to conditionally populate the cards, as opposed to having a seperate component for each type of card.
+* The application is essentially made up of card components and although the content they display is different, it would probably be more efficient to conditionally populate the cards, as opposed to having a separate component for each type of card.
