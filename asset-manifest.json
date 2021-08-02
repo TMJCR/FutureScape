@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/FutureScape/static/css/main.d2358c41.chunk.css",
-    "main.js": "/FutureScape/static/js/main.fc3dc56a.chunk.js",
-    "main.js.map": "/FutureScape/static/js/main.fc3dc56a.chunk.js.map",
+    "main.css": "/FutureScape/static/css/main.4d74c17a.chunk.css",
+    "main.js": "/FutureScape/static/js/main.06caceff.chunk.js",
+    "main.js.map": "/FutureScape/static/js/main.06caceff.chunk.js.map",
     "runtime-main.js": "/FutureScape/static/js/runtime-main.42f8075a.js",
     "runtime-main.js.map": "/FutureScape/static/js/runtime-main.42f8075a.js.map",
     "static/js/2.07867405.chunk.js": "/FutureScape/static/js/2.07867405.chunk.js",
     "static/js/2.07867405.chunk.js.map": "/FutureScape/static/js/2.07867405.chunk.js.map",
     "index.html": "/FutureScape/index.html",
-    "precache-manifest.f63e047de29e101c2b56ee8caff394cf.js": "/FutureScape/precache-manifest.f63e047de29e101c2b56ee8caff394cf.js",
+    "precache-manifest.3fbc7438082bc7ba40a0af2a3a4a7cea.js": "/FutureScape/precache-manifest.3fbc7438082bc7ba40a0af2a3a4a7cea.js",
     "service-worker.js": "/FutureScape/service-worker.js",
-    "static/css/main.d2358c41.chunk.css.map": "/FutureScape/static/css/main.d2358c41.chunk.css.map",
+    "static/css/main.4d74c17a.chunk.css.map": "/FutureScape/static/css/main.4d74c17a.chunk.css.map",
     "static/js/2.07867405.chunk.js.LICENSE.txt": "/FutureScape/static/js/2.07867405.chunk.js.LICENSE.txt",
     "static/media/Apex.png": "/FutureScape/static/media/Apex.1265daec.png",
     "static/media/Apex.jpg": "/FutureScape/static/media/Apex.1f92bee0.jpg",
@@ -44,7 +44,7 @@
   "entrypoints": [
     "static/js/runtime-main.42f8075a.js",
     "static/js/2.07867405.chunk.js",
-    "static/css/main.d2358c41.chunk.css",
-    "static/js/main.fc3dc56a.chunk.js"
+    "static/css/main.4d74c17a.chunk.css",
+    "static/js/main.06caceff.chunk.js"
   ]
 }
