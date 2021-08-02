@@ -7,7 +7,7 @@ export default function Header({ navList }) {
     <header>
       <ul className="HeaderList">
         <li className="HeaderLogoContainer HeaderItem">
-          <a href="/">
+          <a>
             <img className="HeaderLogo" src={require('../images/Logo.jpg')} alt=""></img>
           </a>
         </li>
